@@ -235,6 +235,88 @@
             </div>
         </section>
         <!--==================== explore section end ====================-->
+
+
+
+        <!--==================== ready to join start ====================-->
+        <section class="ready-bg my-5 ready-bg">
+            <div class="row d-flex justify-content-between align-items-center p-5">
+                <div class="col-lg-8">
+                    <h1 class="fw-semibold text-white">Ready to join?</h1>
+                    <p class="text-white">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+                </div>
+
+                <div class="col-lg-3">
+                    <button class="btn bg-white text-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                </div>
+            </div>
+        </section>
+        <!--==================== ready to join end ====================-->
+
+        <!--------------- modal section start ---------------->
+        <!-- Modal for the register button -->
+
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Please Register</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                                <form action="">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="type you name">
+                                            <label for="floatingInput">Full Name</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="type you email address">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <input type="teletphone" class="form-control" id="floatingPassword" placeholder="type your number">
+                                            <label for="floatingPassword">Phone Number</label>
+                                        </div>
+                
+                                        <select class="form-select  mb-3" aria-label="Default select example">
+                                            <option selected>Please select Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Secret">Do no share</option>
+                                        </select>
+                
+                                        <div class="form-check  mb-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                            Accept our <a href="">Term & Condition</a>
+                                            </label>
+                                        </div>                                     
+                                </form>
+                            </div>
+                
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="sign-up.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--------------- modal section end ---------------->
+        
+
     </main>
 
     <script src="bootstrap/bootstrap.min.js"></script>
